@@ -1,0 +1,300 @@
+/* 
+author: @leenwahdan
+github:  @lwahdan
+email: leenwahdan01@gmail.com
+date: 2024-09-19
+project: portfolio
+version: 1.0.0
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+#nav{
+    text-align: right;
+}
+
+#nav img{
+    width: 40px;
+    height: 40px;
+
+}
+
+body {
+font-family: "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+
+width: 100%;
+}
+
+.hero-section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+
+
+#header img{
+    height: 170px;
+    width: 170px;
+    margin: 0;
+    
+}
+
+.portfolio-img{
+    z-index: 2;
+}
+
+.txt-container{
+    text-align: right;
+    margin: 0;
+}
+
+@media (max-width: 560px) {
+    #header {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    #header img {
+        margin: 0 auto; 
+        width: 100px; 
+        height: 100px; 
+    }
+
+    .txt-container {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding: 20px; 
+    }
+
+}
+
+#name{
+    font-size: 21px;
+    width: 500px;
+    padding-right: 81px;
+    margin-bottom: 20px;
+}
+
+#name p{
+    padding-right: 135px;
+}
+
+#job{
+    background-color: #4f9092;
+}
+
+#what{
+    background-color: #d1d1d0;
+    text-align: center;
+}
+
+
+#first{
+    padding: 20px;
+    color: #9a4a6a;
+    font-size: 21px;
+}
+
+#seconed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px 5%;
+
+}
+
+
+@media (max-width: 860px) {
+    #seconed {
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 20px 2%; 
+    }
+}
+
+@media (max-width: 480px) {
+    #seconed {
+        grid-template-columns: 1fr; 
+        padding: 10px 0;
+    }
+}
+
+
+
+#seconed span{
+    padding: 0px 40px;
+
+}
+
+#seconed span h3{
+    margin-bottom: 20px;
+}
+
+#third{
+    padding: 20px;
+}
+
+#third button{
+    background-color: #9a4a6a;
+    color: white;
+    font-size: 18px;
+    padding: 5px 25px;
+}
+
+#third button:hover{
+    background-color: white;
+    color: #9a4a6a;
+}
+
+#who{
+    margin: 0px 280px;
+    line-height: 2;
+    padding-bottom: 40px;
+
+}
+
+@media (max-width: 989px) {
+    #who {
+        width: 100%;
+        margin-left: 0;
+
+    }
+}  
+
+#who h3{
+    font-size: 30px;
+}
+
+#who div{
+    background-color: #4f9092;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+#p{
+    padding: 16px 70px;
+}
+
+#skills{
+    background-color: #d1d1d0;
+    padding: 20px 30px;
+}
+
+#skills1{
+    text-align: center;
+    font-size: 25px;
+    color: #9a4a6a;
+    
+
+}
+
+#skills2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 60px;
+    margin: 65px 0px;
+    padding: 0 5%;
+
+}
+
+@media (max-width: 890px) {
+    #skills2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #skills2 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+#skills img{
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+
+}
+
+#skills2 p{
+    font-size: 22px;
+}
+
+#contact{
+    padding: 20px;
+
+
+}
+
+#contact1{
+    padding: 20px;
+    border: 1px solid #9a4a6a;
+    background-color: #f4dee7;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    #contact1 {
+        max-width: 90%;
+    }
+}
+
+#contact2{
+    padding: 20px;
+    text-align: center;
+
+}
+
+#namee{
+    width: 400px;
+    height: 24px;
+    font-size: 16px;
+}
+
+#email{
+    width: 400px;
+    height: 24px;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+
+#num{
+    width: 400px;
+    height: 24px;
+    font-size: 16px;
+}
+
+#send-btn{
+    background-color: #9a4a6a;
+    padding: 5px 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+
